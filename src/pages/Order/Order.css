@@ -1,0 +1,78 @@
+.orderid {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.hr {
+  border-bottom: 2px rgb(163, 163, 163) solid;
+  width: 300px;
+}
+.backtohomebtn {
+  border: 0px solid black;
+  border-radius: 35px;
+  background-color: #1e1e2c;
+  font-size: 16px;
+  top: 40px;
+  text-transform: uppercase;
+  padding: 10px 40px;
+  color: white;
+  outline-style: none;
+  transition: all 0.5s Linear;
+}
+.paid {
+  color: rgb(29, 223, 45);
+  font-weight: 800;
+}
+.notpaid {
+  color: brown;
+  font-weight: 800;
+}
+.paypalbuttons {
+  margin-top: 12px;
+  z-index: -2;
+  width: 400px;
+}
+.buttonsp {
+  z-index: -2;
+}
+.bottominfos {
+  width: max-content;
+  height: max-content;
+}
+.loading-product{
+  text-align: center;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  margin-left:39%;
+  height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+
+.informations-placeorder{
+margin-left: -2rem;
+}
+
+.cart-summ{
+  margin-left: -2rem;
+  width: 320px;
+}
+.paypalbuttons{
+  width : 90%;
+}
+
+.loading {
+    
+  text-align: center;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin-left:22%;
+  height: 100vh;
+}
+
+}
